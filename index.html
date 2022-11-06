@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxNzAyMjJfOTAg/MDAxNDg3NzM4MDQ5MTYx.-MJDKiqdBmgr41eYCXeRG9qZHiT5e3u6EaubDMKb6Gkg.iM49nL4bt9LvA7L9WI3cc_df_63hpv5183HPbXgVuJ0g.JPEG.hostel_world/%EB%B6%80%EB%8B%A4%ED%8E%98%EC%8A%A4%ED%8A%B8_%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%82%AC%EB%8B%B9.jpg?type=w800);
+            background-position: center;
+
+            color : rgb(255, 255, 255);
+        }
+
+        .time {
+            font-size: 75px;
+            font-weight: normal;
+        }
+
+
+        .greeting {
+            font-size: 50px;
+        }
+
+
+        .todo {
+            font-size: 36px;
+        }
+        
+
+        .author {
+            font-size: 19px;
+            font-style: italic;
+        }
+
+        .content {
+            font-size: 19px;
+        }
+
+        .main {
+            width: 100vw;
+            height: 55vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 25vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">20:00</div>
+        <div class="greeting">오늘도 일단 버티자</div>
+        <div class="todo">주2회 라이딩/블로글</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" calss="content">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
